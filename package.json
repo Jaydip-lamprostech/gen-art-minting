@@ -1,0 +1,47 @@
+{
+  "name": "nextjs14testing",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.10.1",
+    "@fortawesome/fontawesome-svg-core": "^6.5.2",
+    "@fortawesome/free-solid-svg-icons": "^6.5.2",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@lighthouse-web3/sdk": "^0.3.2",
+    "axios": "^1.6.8",
+    "classnames": "^2.5.1",
+    "date-fns": "^3.6.0",
+    "file-type": "^16.5.3",
+    "formik": "^2.4.6",
+    "lodash": "^4.17.21",
+    "next": "14.2.2",
+    "path": "^0.12.7",
+    "react": "^18",
+    "react-datepicker": "^6.9.0",
+    "react-dom": "^18",
+    "react-dropzone": "^14.2.3",
+    "react-nl2br": "^1.0.4",
+    "react-router-dom": "^5.3.4",
+    "sass": "^1.75.0",
+    "semver": "^7.6.0",
+    "sha1": "^1.1.1",
+    "unzipit": "^1.4.3",
+    "unzipper": "^0.11.5",
+    "use-async-effect": "^2.2.7",
+    "use-http": "^1.0.28",
+    "yup": "^1.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "20.12.7",
+    "@types/react": "18.2.79",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "5.4.5"
+  }
+}
